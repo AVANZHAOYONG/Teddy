@@ -1,0 +1,5 @@
+# Project exclude paths
+/eventbus/target/
+/thread/target/
+.idea
+*.iml
