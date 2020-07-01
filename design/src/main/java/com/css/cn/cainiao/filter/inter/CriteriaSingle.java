@@ -3,7 +3,7 @@ package com.css.cn.cainiao.filter.inter;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.css.cn.filter.entries.Person;
+import com.css.cn.cainiao.filter.entries.Person;
 
 public class CriteriaSingle implements Criteria {
 

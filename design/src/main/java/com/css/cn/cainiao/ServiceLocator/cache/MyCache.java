@@ -1,11 +1,9 @@
 package com.css.cn.cainiao.ServiceLocator.cache;
 
-import java.util.ArrayList;
-import java.util.List;
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 
-import com.css.cn.ServiceLocator.entries.Services;
+import com.css.cn.cainiao.ServiceLocator.entries.Services;
 
 public class MyCache {
 	

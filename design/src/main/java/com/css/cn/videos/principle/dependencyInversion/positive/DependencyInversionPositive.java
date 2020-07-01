@@ -1,8 +1,8 @@
 package com.css.cn.videos.principle.dependencyInversion.positive;
 
-import org.css.com.principle.dependencyInversion.entries.Animals;
-import org.css.com.principle.dependencyInversion.entries.Cat;
-import org.css.com.principle.dependencyInversion.entries.Dog;
+import com.css.cn.videos.principle.dependencyInversion.entries.Animals;
+import com.css.cn.videos.principle.dependencyInversion.entries.Cat;
+import com.css.cn.videos.principle.dependencyInversion.entries.Dog;
 
 public class DependencyInversionPositive {
 	

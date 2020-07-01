@@ -1,7 +1,7 @@
 package com.css.cn.videos.dp.decorator.decorator.impl;
 
-import org.css.com.dp.decorator.component.Component;
-import org.css.com.dp.decorator.decorator.Decorator;
+import com.css.cn.videos.dp.decorator.component.Component;
+import com.css.cn.videos.dp.decorator.decorator.Decorator;
 
 public class MyDecorator implements Decorator {
 	

@@ -1,8 +1,8 @@
 package com.css.cn.cainiao.mvc;
 
-import com.css.cn.mvc.controller.StudentController;
-import com.css.cn.mvc.model.Student;
-import com.css.cn.mvc.view.ConsoleView;
+import com.css.cn.cainiao.mvc.controller.StudentController;
+import com.css.cn.cainiao.mvc.model.Student;
+import com.css.cn.cainiao.mvc.view.ConsoleView;
 
 public class App {
 	public static void main(String[] args) {

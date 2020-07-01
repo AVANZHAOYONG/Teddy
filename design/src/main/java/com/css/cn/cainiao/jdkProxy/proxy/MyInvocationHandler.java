@@ -4,7 +4,7 @@ import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;
 import java.util.Date;
 
-import com.css.cn.jdkProxy.entries.Operate;
+import com.css.cn.cainiao.jdkProxy.entries.Operate;
 
 public class MyInvocationHandler implements InvocationHandler {
 	

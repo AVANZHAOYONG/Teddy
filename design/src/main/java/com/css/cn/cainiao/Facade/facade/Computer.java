@@ -1,8 +1,8 @@
 package com.css.cn.cainiao.Facade.facade;
 
-import com.css.cn.Facade.entries.Cpu;
-import com.css.cn.Facade.entries.mem;
-import com.css.cn.Facade.entries.stage;
+import com.css.cn.cainiao.Facade.entries.Cpu;
+import com.css.cn.cainiao.Facade.entries.mem;
+import com.css.cn.cainiao.Facade.entries.stage;
 
 public class Computer {
 	private Cpu cpu ; 

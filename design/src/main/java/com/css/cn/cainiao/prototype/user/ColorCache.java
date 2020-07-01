@@ -3,8 +3,8 @@ package com.css.cn.cainiao.prototype.user;
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 
-import com.css.cn.prototype.entries.Color;
-import com.css.cn.prototype.entries.Red;
+import com.css.cn.cainiao.prototype.entries.Color;
+import com.css.cn.cainiao.prototype.entries.Red;
 
 public class ColorCache {
 	

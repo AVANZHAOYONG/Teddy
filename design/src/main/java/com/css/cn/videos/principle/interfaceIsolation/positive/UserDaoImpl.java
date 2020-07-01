@@ -1,6 +1,6 @@
 package com.css.cn.videos.principle.interfaceIsolation.positive;
 
-import org.css.com.principle.interfaceIsolation.entries.User;
+import com.css.cn.videos.principle.interfaceIsolation.entries.User;
 
 /**
  *接口隔离原则 一个类对另一个类的依赖应该建立在最小的接口上。

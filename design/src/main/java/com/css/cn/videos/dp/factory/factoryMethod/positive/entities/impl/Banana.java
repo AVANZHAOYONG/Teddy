@@ -1,6 +1,6 @@
 package com.css.cn.videos.dp.factory.factoryMethod.positive.entities.impl;
 
-import org.css.com.dp.factory.factoryMethod.positive.entities.Food;
+import com.css.cn.videos.dp.factory.factoryMethod.positive.entities.Food;
 
 public class Banana implements Food{
 

@@ -1,7 +1,7 @@
 package com.css.cn.cainiao.proxy;
 
-import com.css.cn.proxy.entries.Inter;
-import com.css.cn.proxy.entries.ProxyReal;
+import com.css.cn.cainiao.proxy.entries.Inter;
+import com.css.cn.cainiao.proxy.entries.ProxyReal;
 
 public class App {
 	public static void main(String[] args) {

@@ -1,7 +1,7 @@
 package com.css.cn.cainiao.builder2.builder;
 
-import com.css.cn.builder2.entries.BTCar;
-import com.css.cn.builder2.entries.Car;
+import com.css.cn.cainiao.builder2.entries.BTCar;
+import com.css.cn.cainiao.builder2.entries.Car;
 
 public class BTBuilder implements builder {
 	private Car car = new BTCar();

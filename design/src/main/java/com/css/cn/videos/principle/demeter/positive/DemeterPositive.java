@@ -1,6 +1,6 @@
 package com.css.cn.videos.principle.demeter.positive;
 
-import org.css.com.principle.demeter.Computer;
+import com.css.cn.videos.principle.demeter.Computer;
 /**
  * 迪米特法则  最少知道原则
  * 

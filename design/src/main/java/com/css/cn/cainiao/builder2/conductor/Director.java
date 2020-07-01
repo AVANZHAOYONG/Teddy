@@ -1,7 +1,7 @@
 package com.css.cn.cainiao.builder2.conductor;
 
-import com.css.cn.builder2.builder.builder;
-import com.css.cn.builder2.entries.Car;
+import com.css.cn.cainiao.builder2.builder.builder;
+import com.css.cn.cainiao.builder2.entries.Car;
 
 public class Director {
 	private builder build = null;

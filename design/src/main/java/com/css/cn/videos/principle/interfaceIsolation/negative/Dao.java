@@ -1,8 +1,8 @@
 package com.css.cn.videos.principle.interfaceIsolation.negative;
 
 
-import org.css.com.principle.interfaceIsolation.entries.Book;
-import org.css.com.principle.interfaceIsolation.entries.User;
+import com.css.cn.videos.principle.interfaceIsolation.entries.Book;
+import com.css.cn.videos.principle.interfaceIsolation.entries.User;
 
 public interface Dao {
 	

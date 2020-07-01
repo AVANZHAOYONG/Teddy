@@ -1,7 +1,7 @@
 package com.css.cn.cainiao.factory.factories;
 
-import com.css.cn.factory.entity.color.color;
-import com.css.cn.factory.entity.shape.shape;
+import com.css.cn.cainiao.factory.entity.color.color;
+import com.css.cn.cainiao.factory.entity.shape.shape;
 
 public interface Provider {
 

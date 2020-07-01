@@ -5,9 +5,9 @@ import java.lang.reflect.Proxy;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
-import com.css.cn.jdkProxy.entries.Operate;
-import com.css.cn.jdkProxy.entries.RealOperate;
-import com.css.cn.jdkProxy.proxy.MyInvocationHandler;
+import com.css.cn.cainiao.jdkProxy.entries.Operate;
+import com.css.cn.cainiao.jdkProxy.entries.RealOperate;
+import com.css.cn.cainiao.jdkProxy.proxy.MyInvocationHandler;
 
 public class App {
 	public static void main(String[] args) {

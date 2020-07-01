@@ -1,7 +1,7 @@
 package com.css.cn.videos.dp.strategy.demo1.entities;
 
-import org.css.com.dp.strategy.demo1.fly.FlyAble;
-import org.css.com.dp.strategy.demo1.quack.QuackAble;
+import com.css.cn.videos.dp.strategy.demo1.fly.FlyAble;
+import com.css.cn.videos.dp.strategy.demo1.quack.QuackAble;
 
 public class WildDuck extends AbsDuck implements QuackAble,FlyAble{
 

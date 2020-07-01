@@ -1,6 +1,6 @@
 package com.css.cn.cainiao.CompositeEntity;
 
-import com.css.cn.CompositeEntity.Client.Client;
+import com.css.cn.cainiao.CompositeEntity.Client.Client;
 
 public class App {
 	public static void main(String[] args) {

@@ -1,6 +1,6 @@
 package com.css.cn.cainiao.decorator.decorate;
 
-import com.css.cn.decorator.entries.Shape;
+import com.css.cn.cainiao.decorator.entries.Shape;
 
 public class RedShepeDecorator implements ShapeDecorator {
 

@@ -1,7 +1,7 @@
 package com.css.cn.cainiao.CompositeEntity.CoarseGrained;
 
-import com.css.cn.CompositeEntity.dependent.DependentObj1;
-import com.css.cn.CompositeEntity.dependent.DependentObj2;
+import com.css.cn.cainiao.CompositeEntity.dependent.DependentObj1;
+import com.css.cn.cainiao.CompositeEntity.dependent.DependentObj2;
 
 /**
  * 粗粒度实体类

@@ -1,7 +1,7 @@
 package com.css.cn.videos.dp.strategy.demo1;
 
-import org.css.com.dp.strategy.demo1.entities.RubberDuck;
-import org.css.com.dp.strategy.demo1.entities.WildDuck;
+import com.css.cn.videos.dp.strategy.demo1.entities.RubberDuck;
+import com.css.cn.videos.dp.strategy.demo1.entities.WildDuck;
 
 public class App {
 	public static void main(String[] args) {

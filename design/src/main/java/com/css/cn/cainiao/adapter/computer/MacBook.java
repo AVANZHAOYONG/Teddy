@@ -1,6 +1,6 @@
 package com.css.cn.cainiao.adapter.computer;
 
-import com.css.cn.adapter.sd.SDCard;
+import com.css.cn.cainiao.adapter.sd.SDCard;
 
 public class MacBook implements Computer {
 

@@ -1,7 +1,7 @@
 package com.css.cn.cainiao.builder;
 
-import com.css.cn.builder.entries.MacBook;
-import com.css.cn.builder.entries.computer;
+import com.css.cn.cainiao.builder.entries.MacBook;
+import com.css.cn.cainiao.builder.entries.computer;
 
 public class MacBookBuilder implements builder {
 	

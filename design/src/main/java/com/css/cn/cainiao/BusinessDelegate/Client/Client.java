@@ -1,6 +1,6 @@
 package com.css.cn.cainiao.BusinessDelegate.Client;
 
-import com.css.cn.BusinessDelegate.BusinessDelegate.BusinessDelegate;
+import com.css.cn.cainiao.BusinessDelegate.BusinessDelegate.BusinessDelegate;
 
 public class Client {
 	private BusinessDelegate bd;

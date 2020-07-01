@@ -1,6 +1,6 @@
 package com.css.cn.cainiao.CompositeEntity.CompositeEntity;
 
-import com.css.cn.CompositeEntity.CoarseGrained.CoarseGrained;
+import com.css.cn.cainiao.CompositeEntity.CoarseGrained.CoarseGrained;
 
 public class Composite {
 	private CoarseGrained coa = new CoarseGrained();

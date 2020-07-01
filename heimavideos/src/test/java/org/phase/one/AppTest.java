@@ -10,9 +10,8 @@ import java.util.Random;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
-
-import com.css.sword.core.learn.phaseOne.bean.Zi;
-import com.css.sword.core.learn.phaseOne.bean.fu;
+import org.phase.one.bean.Zi;
+import org.phase.one.bean.fu;
 
 /**
  * Unit test for simple App.
@@ -40,15 +39,14 @@ public class AppTest {
 		}
     }
     
-    @SuppressWarnings("resource")
 	@Test
     public void testGenericity() throws FileNotFoundException {
-    	List<fu> of = List.of(new Zi(),new Zi());
-    	this.genericity(of);
-    	FileInputStream fileInputStream = new FileInputStream("");
-//    	fileInputStream.
-    	FileOutputStream fileOutputStream = new FileOutputStream("");
-//    	fileOutputStream.
+//    	List<fu> of = List.of(new Zi(),new Zi());
+//    	this.genericity(of);
+//    	FileInputStream fileInputStream = new FileInputStream("");
+////    	fileInputStream.
+//    	FileOutputStream fileOutputStream = new FileOutputStream("");
+////    	fileOutputStream.
     	
     }
 }

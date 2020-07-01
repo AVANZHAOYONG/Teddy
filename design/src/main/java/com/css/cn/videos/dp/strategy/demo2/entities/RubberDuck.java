@@ -1,7 +1,7 @@
 package com.css.cn.videos.dp.strategy.demo2.entities;
 
-import org.css.com.dp.strategy.demo2.behavior.fly.FlyBehavior;
-import org.css.com.dp.strategy.demo2.behavior.quack.QuackBehavior;
+import com.css.cn.videos.dp.strategy.demo2.behavior.fly.FlyBehavior;
+import com.css.cn.videos.dp.strategy.demo2.behavior.quack.QuackBehavior;
 
 public class RubberDuck extends AbsDuck {
 

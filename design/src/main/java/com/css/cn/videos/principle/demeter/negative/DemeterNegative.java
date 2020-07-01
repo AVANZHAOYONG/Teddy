@@ -1,6 +1,6 @@
 package com.css.cn.videos.principle.demeter.negative;
 
-import org.css.com.principle.demeter.Computer;
+import com.css.cn.videos.principle.demeter.Computer;
 
 public class DemeterNegative {
 	

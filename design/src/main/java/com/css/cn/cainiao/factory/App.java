@@ -1,8 +1,8 @@
 package com.css.cn.cainiao.factory;
 
-import com.css.cn.factory.entity.shape.shape;
-import com.css.cn.factory.factories.GetFactory;
-import com.css.cn.factory.factories.Provider;
+import com.css.cn.cainiao.factory.entity.shape.shape;
+import com.css.cn.cainiao.factory.factories.GetFactory;
+import com.css.cn.cainiao.factory.factories.Provider;
 
 public class App {
 	public static void main(String[] args) {

@@ -1,8 +1,8 @@
 package com.css.cn.videos.dp.factory.factoryMethod.positive;
 
-import org.css.com.dp.factory.factoryMethod.positive.entities.Food;
-import org.css.com.dp.factory.factoryMethod.positive.factory.FoodFactoy;
-import org.css.com.dp.factory.factoryMethod.positive.factory.impl.AppleFactory;
+import com.css.cn.videos.dp.factory.factoryMethod.positive.entities.Food;
+import com.css.cn.videos.dp.factory.factoryMethod.positive.factory.FoodFactoy;
+import com.css.cn.videos.dp.factory.factoryMethod.positive.factory.impl.AppleFactory;
 
 public class Positive {
 	public static void main(String[] args) {

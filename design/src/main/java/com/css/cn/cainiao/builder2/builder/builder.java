@@ -1,6 +1,6 @@
 package com.css.cn.cainiao.builder2.builder;
 
-import com.css.cn.builder2.entries.Car;
+import com.css.cn.cainiao.builder2.entries.Car;
 
 public interface builder {
 

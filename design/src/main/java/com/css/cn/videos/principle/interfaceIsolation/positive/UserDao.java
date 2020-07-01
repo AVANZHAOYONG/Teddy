@@ -1,7 +1,7 @@
 package com.css.cn.videos.principle.interfaceIsolation.positive;
 
 
-import org.css.com.principle.interfaceIsolation.entries.User;
+import com.css.cn.videos.principle.interfaceIsolation.entries.User;
 
 public interface UserDao {
 	

@@ -1,8 +1,8 @@
 package com.css.cn.videos.dp.factory.simpleFactory.negative;
 
-import org.css.com.dp.factory.simpleFactory.entities.Apple;
-import org.css.com.dp.factory.simpleFactory.entities.Food;
-import org.css.com.dp.factory.simpleFactory.entities.Pear;
+import com.css.cn.videos.dp.factory.simpleFactory.entities.Apple;
+import com.css.cn.videos.dp.factory.simpleFactory.entities.Food;
+import com.css.cn.videos.dp.factory.simpleFactory.entities.Pear;
 
 public class Negative {
 	

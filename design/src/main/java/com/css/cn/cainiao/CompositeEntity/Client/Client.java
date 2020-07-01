@@ -1,6 +1,6 @@
 package com.css.cn.cainiao.CompositeEntity.Client;
 
-import com.css.cn.CompositeEntity.CompositeEntity.Composite;
+import com.css.cn.cainiao.CompositeEntity.CompositeEntity.Composite;
 
 public class Client {
 	private Composite com = new Composite();

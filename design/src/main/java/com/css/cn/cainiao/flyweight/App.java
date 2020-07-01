@@ -1,7 +1,7 @@
 package com.css.cn.cainiao.flyweight;
 
-import com.css.cn.flyweight.entries.Shape;
-import com.css.cn.flyweight.flyweight.ShapeFactory;
+import com.css.cn.cainiao.flyweight.entries.Shape;
+import com.css.cn.cainiao.flyweight.flyweight.ShapeFactory;
 
 public class App {
 	
