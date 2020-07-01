@@ -15,6 +15,7 @@
         <module>eventbus</module>
         <module>netty</module>
         <module>thread</module>
+        <module>design</module>
     </modules>
 
 
