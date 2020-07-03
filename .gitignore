@@ -1,5 +1,11 @@
-# Project exclude paths
-/eventbus/target/
-/thread/target/
-.idea
+# Maven #
+target/
+
+# IDEA #
+.idea/
 *.iml
+
+# Eclipse #
+.settings/
+.classpath
+.project
