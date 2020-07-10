@@ -15,7 +15,7 @@ public class SizeTestApp {
     public static void main(String[] args) {
         System.out.println(Size.LARGE==Enum.valueOf(Size.class, "LARGE"));
         System.out.println(Size.LARGE.toString());
-        
+
         int ordinal = Size.values()[1].ordinal();
         System.out.println(ordinal);
         System.out.println(Size.SMALL.getV());
