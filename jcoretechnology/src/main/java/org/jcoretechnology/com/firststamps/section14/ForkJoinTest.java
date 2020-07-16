@@ -72,7 +72,8 @@ public class ForkJoinTest extends RecursiveTask<Integer> {
         
         ForkJoinPool pool = new ForkJoinPool();
         
-        pool.invoke(forkJoinTest);
+        Integer invoke = pool.invoke(forkJoinTest);
+        System.out.println(invoke);
     }
 
 }
