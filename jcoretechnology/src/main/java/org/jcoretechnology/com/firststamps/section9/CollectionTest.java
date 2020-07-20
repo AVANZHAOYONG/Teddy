@@ -89,6 +89,9 @@ public class CollectionTest {
          */
         String[] strs = {"a","b","c"};
         List<String> list = Arrays.asList(strs);
+        ArrayList<String> arrayList = new ArrayList<String>();
+        arrayList.ensureCapacity(100);
+        arrayList.trimToSize();
 //        List<String> nCopies = Collections.nCopies(10, new String("d"));
         Map<Object, Object> emptyMap = Collections.emptyMap();
         
