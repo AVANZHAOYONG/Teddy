@@ -20,10 +20,11 @@ public class App {
 	
 	public static void main(String[] args) {
 		Runnable run = new Tickets(300);
-		new Thread(run,"窗口一").start();
-		new Thread(run,"窗口二").start();
-		new Thread(run,"窗口三").start();
+		new Thread(run, "窗口一").start();
+		new Thread(run, "窗口二").start();
+		new Thread(run, "窗口三").start();
 		System.out.println("wancheng");
+		System.out.println("fdas");
 	}
 
 }
