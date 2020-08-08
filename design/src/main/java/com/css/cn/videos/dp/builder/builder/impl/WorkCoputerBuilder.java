@@ -1,7 +1,7 @@
 package com.css.cn.videos.dp.builder.builder.impl;
 
-import org.css.com.dp.builder.builder.ComputerBuilder;
-import org.css.com.dp.builder.product.Computer;
+import com.css.cn.videos.dp.builder.builder.ComputerBuilder;
+import com.css.cn.videos.dp.builder.product.Computer;
 
 public class WorkCoputerBuilder implements ComputerBuilder {
 

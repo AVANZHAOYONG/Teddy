@@ -1,6 +1,6 @@
 package com.css.cn.videos.dp.strategy.demo2.behavior.fly.impl;
 
-import org.css.com.dp.strategy.demo2.behavior.fly.FlyBehavior;
+import com.css.cn.videos.dp.strategy.demo2.behavior.fly.FlyBehavior;
 
 public class WingFly implements FlyBehavior{
 

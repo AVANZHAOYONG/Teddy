@@ -1,6 +1,6 @@
 package com.css.cn.videos.principle.LiskovSubstitution.Positive;
 
-import org.css.com.principle.LiskovSubstitution.Positive.entities.Rectangle;
+import com.css.cn.videos.principle.LiskovSubstitution.Positive.entities.Rectangle;
 
 public class LiskovUtils {
 	

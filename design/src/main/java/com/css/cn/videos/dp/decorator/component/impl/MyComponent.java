@@ -1,6 +1,6 @@
 package com.css.cn.videos.dp.decorator.component.impl;
 
-import org.css.com.dp.decorator.component.Component;
+import com.css.cn.videos.dp.decorator.component.Component;
 
 public class MyComponent implements Component{
 

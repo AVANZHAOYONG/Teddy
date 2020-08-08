@@ -3,8 +3,8 @@ package com.css.cn.cainiao.flyweight.flyweight;
 import java.util.HashMap;
 import java.util.Map;
 
-import com.css.cn.flyweight.entries.Circle;
-import com.css.cn.flyweight.entries.Shape;
+import com.css.cn.cainiao.flyweight.entries.Circle;
+import com.css.cn.cainiao.flyweight.entries.Shape;
 
 
 public class ShapeFactory {

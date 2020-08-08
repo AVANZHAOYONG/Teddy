@@ -1,7 +1,7 @@
 package com.css.cn.videos.principle.LiskovSubstitution.Negative;
 
-import org.css.com.principle.LiskovSubstitution.Negative.entities.Rectangle;
-import org.css.com.principle.LiskovSubstitution.Negative.entities.Square;
+import com.css.cn.videos.principle.LiskovSubstitution.Negative.entities.Rectangle;
+import com.css.cn.videos.principle.LiskovSubstitution.Negative.entities.Square;
 
 public class Negative {
 	

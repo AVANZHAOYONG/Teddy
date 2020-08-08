@@ -1,6 +1,6 @@
 package com.css.cn.cainiao.Command.received;
 
-import com.css.cn.Command.Command.AbsStock;
+import com.css.cn.cainiao.Command.Command.AbsStock;
 
 public class SellStock implements Order {
 

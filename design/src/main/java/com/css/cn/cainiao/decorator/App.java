@@ -1,10 +1,10 @@
-package com.css.cn.cainiao.decorator;
+    package com.css.cn.cainiao.decorator;
 
-import com.css.cn.decorator.decorate.RedShepeDecorator;
-import com.css.cn.decorator.decorate.ShapeDecorator;
-import com.css.cn.decorator.entries.Circle;
-import com.css.cn.decorator.entries.Rectangle;
-import com.css.cn.decorator.entries.Shape;
+import com.css.cn.cainiao.decorator.decorate.RedShepeDecorator;
+import com.css.cn.cainiao.decorator.decorate.ShapeDecorator;
+import com.css.cn.cainiao.decorator.entries.Circle;
+import com.css.cn.cainiao.decorator.entries.Rectangle;
+import com.css.cn.cainiao.decorator.entries.Shape;
 
 public class App {
 	public static void main(String[] args) {

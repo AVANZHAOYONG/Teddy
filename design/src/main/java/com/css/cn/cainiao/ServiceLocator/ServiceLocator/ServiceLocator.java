@@ -1,8 +1,8 @@
 package com.css.cn.cainiao.ServiceLocator.ServiceLocator;
 
-import com.css.cn.ServiceLocator.cache.MyCache;
-import com.css.cn.ServiceLocator.entries.InitialContext;
-import com.css.cn.ServiceLocator.entries.Services;
+import com.css.cn.cainiao.ServiceLocator.cache.MyCache;
+import com.css.cn.cainiao.ServiceLocator.entries.InitialContext;
+import com.css.cn.cainiao.ServiceLocator.entries.Services;
 
 public class ServiceLocator {
 	private MyCache mycache ;

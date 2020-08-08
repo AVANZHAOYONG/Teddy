@@ -1,6 +1,6 @@
 package com.css.cn.cainiao.Facade;
 
-import com.css.cn.Facade.facade.Computer;
+import com.css.cn.cainiao.Facade.facade.Computer;
 
 public class App {
 	public static void main(String[] args) {

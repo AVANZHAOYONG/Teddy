@@ -3,7 +3,7 @@ package com.css.cn.cainiao.Command.invoke;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.css.cn.Command.received.Order;
+import com.css.cn.cainiao.Command.received.Order;
 
 public class Broker {
 	private List<Order> orderList =  new ArrayList<Order>();

@@ -1,8 +1,8 @@
 package com.css.cn.videos.dp.factory.absfactory;
 
-import org.css.com.dp.factory.absfactory.factory.Factory;
-import org.css.com.dp.factory.absfactory.factory.impl.LevoneFactory;
-import org.css.com.dp.factory.absfactory.product.mouse.Mouse;
+import com.css.cn.videos.dp.factory.absfactory.factory.Factory;
+import com.css.cn.videos.dp.factory.absfactory.factory.impl.LevoneFactory;
+import com.css.cn.videos.dp.factory.absfactory.product.mouse.Mouse;
 
 public class App {
 	public static void main(String[] args) {

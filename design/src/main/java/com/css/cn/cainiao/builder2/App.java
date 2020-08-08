@@ -1,9 +1,9 @@
 package com.css.cn.cainiao.builder2;
 
-import com.css.cn.builder2.builder.BTBuilder;
-import com.css.cn.builder2.builder.builder;
-import com.css.cn.builder2.conductor.Director;
-import com.css.cn.builder2.entries.Car;
+import com.css.cn.cainiao.builder2.builder.BTBuilder;
+import com.css.cn.cainiao.builder2.builder.builder;
+import com.css.cn.cainiao.builder2.conductor.Director;
+import com.css.cn.cainiao.builder2.entries.Car;
 
 public class App {
 	public static void main(String[] args) {

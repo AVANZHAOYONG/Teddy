@@ -1,9 +1,9 @@
 package com.css.cn.videos.dp.decorator;
 
-import org.css.com.dp.decorator.component.Component;
-import org.css.com.dp.decorator.component.impl.MyComponent;
-import org.css.com.dp.decorator.decorator.Decorator;
-import org.css.com.dp.decorator.decorator.impl.MyDecorator;
+import com.css.cn.videos.dp.decorator.component.Component;
+import com.css.cn.videos.dp.decorator.component.impl.MyComponent;
+import com.css.cn.videos.dp.decorator.decorator.Decorator;
+import com.css.cn.videos.dp.decorator.decorator.impl.MyDecorator;
 
 /**
  * jdk的 inputstream和bufferedInputstream也是用的装饰器

@@ -1,7 +1,7 @@
 package com.css.cn.videos.dp.builder;
 
-import org.css.com.dp.builder.builder.impl.GameCoputerBuilder;
-import org.css.com.dp.builder.product.Computer;
+import com.css.cn.videos.dp.builder.builder.impl.GameCoputerBuilder;
+import com.css.cn.videos.dp.builder.product.Computer;
 
 public class App {
 	

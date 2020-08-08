@@ -1,6 +1,6 @@
 package com.css.cn.cainiao.bridge.inter;
 
-import com.css.cn.bridge.entries.DrawApi;
+import com.css.cn.cainiao.bridge.entries.DrawApi;
 
 public class Circle implements Shape {
 	private DrawApi draw ;

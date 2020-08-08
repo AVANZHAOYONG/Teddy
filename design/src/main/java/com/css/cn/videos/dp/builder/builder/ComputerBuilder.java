@@ -1,6 +1,6 @@
 package com.css.cn.videos.dp.builder.builder;
 
-import org.css.com.dp.builder.product.Computer;
+import com.css.cn.videos.dp.builder.product.Computer;
 
 public interface ComputerBuilder {
 	

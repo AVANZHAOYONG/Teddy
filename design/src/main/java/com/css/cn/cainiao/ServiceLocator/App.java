@@ -1,7 +1,7 @@
 package com.css.cn.cainiao.ServiceLocator;
 
-import com.css.cn.ServiceLocator.ServiceLocator.ServiceLocator;
-import com.css.cn.ServiceLocator.entries.Services;
+import com.css.cn.cainiao.ServiceLocator.ServiceLocator.ServiceLocator;
+import com.css.cn.cainiao.ServiceLocator.entries.Services;
 
 public class App {
 	

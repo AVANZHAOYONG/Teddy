@@ -1,14 +1,13 @@
 package org.phase.one;
 
-import com.css.sword.core.learn.phaseOne.Interface.AbsTetst;
-import com.css.sword.core.learn.phaseOne.Interface.Inter;
-import com.css.sword.core.learn.phaseOne.Interface.TetstImpl;
+import org.phase.one.Interface.AbsTetst;
+import org.phase.one.Interface.TetstImpl;
 
 /**
  * Hello world!
  *
  */
-public class App 
+public class App3
 {
     public static void main( String[] args )
     {

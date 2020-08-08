@@ -1,7 +1,7 @@
 package com.css.cn.videos.principle.dependencyInversion.negative;
 
-import org.css.com.principle.dependencyInversion.entries.Cat;
-import org.css.com.principle.dependencyInversion.entries.Dog;
+import com.css.cn.videos.principle.dependencyInversion.entries.Cat;
+import com.css.cn.videos.principle.dependencyInversion.entries.Dog;
 
 public class DependencyInversionNegative {
 	

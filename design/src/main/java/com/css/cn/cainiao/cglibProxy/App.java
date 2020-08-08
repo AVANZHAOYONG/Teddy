@@ -1,7 +1,7 @@
 package com.css.cn.cainiao.cglibProxy;
 
-import com.css.cn.cglibProxy.entries.Engineer;
-import com.css.cn.cglibProxy.proxy.CglibProxy;
+import com.css.cn.cainiao.cglibProxy.entries.Engineer;
+import com.css.cn.cainiao.cglibProxy.proxy.CglibProxy;
 
 public class App {
 	public static void main(String[] args) {

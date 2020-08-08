@@ -2,7 +2,7 @@ package com.css.cn.cainiao.composite;
 
 import java.util.List;
 
-import com.css.cn.composite.entries.Employer;
+import com.css.cn.cainiao.composite.entries.Employer;
 
 public class App {
 

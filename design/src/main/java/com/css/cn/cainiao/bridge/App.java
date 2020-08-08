@@ -1,7 +1,7 @@
 package com.css.cn.cainiao.bridge;
 
-import com.css.cn.bridge.entries.GreenCicle;
-import com.css.cn.bridge.inter.Circle;
+import com.css.cn.cainiao.bridge.entries.GreenCicle;
+import com.css.cn.cainiao.bridge.inter.Circle;
 
 public class App {
 

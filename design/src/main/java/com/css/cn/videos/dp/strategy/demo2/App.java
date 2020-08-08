@@ -1,14 +1,12 @@
 package com.css.cn.videos.dp.strategy.demo2;
 
-import org.css.com.dp.strategy.demo2.entities.WildDuck;
-import org.css.com.dp.strategy.demo2.behavior.fly.impl.MachineFly;
-import org.css.com.dp.strategy.demo2.behavior.fly.impl.NoFlyBehavior;
-import org.css.com.dp.strategy.demo2.behavior.fly.impl.WingFly;
-import org.css.com.dp.strategy.demo2.behavior.quack.impl.GagaQuack;
-import org.css.com.dp.strategy.demo2.behavior.quack.impl.TalkQuack;
-import org.css.com.dp.strategy.demo2.entities.AbsDuck;
-import org.css.com.dp.strategy.demo2.entities.Duck;
-import org.css.com.dp.strategy.demo2.entities.RubberDuck;
+import com.css.cn.videos.dp.strategy.demo2.behavior.fly.impl.NoFlyBehavior;
+import com.css.cn.videos.dp.strategy.demo2.behavior.fly.impl.WingFly;
+import com.css.cn.videos.dp.strategy.demo2.behavior.quack.impl.GagaQuack;
+import com.css.cn.videos.dp.strategy.demo2.behavior.quack.impl.TalkQuack;
+import com.css.cn.videos.dp.strategy.demo2.entities.AbsDuck;
+import com.css.cn.videos.dp.strategy.demo2.entities.RubberDuck;
+import com.css.cn.videos.dp.strategy.demo2.entities.WildDuck;
 
 /**
  * 变化来了  此时 有很多种飞的方法 和叫的方法。

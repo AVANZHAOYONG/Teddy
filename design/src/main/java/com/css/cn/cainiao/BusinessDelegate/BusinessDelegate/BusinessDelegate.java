@@ -1,7 +1,7 @@
 package com.css.cn.cainiao.BusinessDelegate.BusinessDelegate;
 
-import com.css.cn.BusinessDelegate.BusinessService.BusinessService;
-import com.css.cn.BusinessDelegate.lookupService.LookUpService;
+import com.css.cn.cainiao.BusinessDelegate.BusinessService.BusinessService;
+import com.css.cn.cainiao.BusinessDelegate.lookupService.LookUpService;
 
 public class BusinessDelegate {
 	

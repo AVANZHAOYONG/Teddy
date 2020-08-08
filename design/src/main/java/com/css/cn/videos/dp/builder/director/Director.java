@@ -1,8 +1,7 @@
 package com.css.cn.videos.dp.builder.director;
 
-import org.css.com.dp.builder.builder.ComputerBuilder;
-
-import com.css.cn.builder.entries.computer;
+import com.css.cn.cainiao.builder.entries.computer;
+import com.css.cn.videos.dp.builder.builder.ComputerBuilder;
 
 public class Director {
 	

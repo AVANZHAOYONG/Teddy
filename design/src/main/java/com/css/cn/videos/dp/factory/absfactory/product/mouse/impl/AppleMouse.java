@@ -1,6 +1,6 @@
 package com.css.cn.videos.dp.factory.absfactory.product.mouse.impl;
 
-import org.css.com.dp.factory.absfactory.product.mouse.Mouse;
+import com.css.cn.videos.dp.factory.absfactory.product.mouse.Mouse;
 
 public class AppleMouse implements Mouse {
 

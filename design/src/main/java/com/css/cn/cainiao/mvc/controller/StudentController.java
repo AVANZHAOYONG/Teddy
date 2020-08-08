@@ -1,7 +1,7 @@
 package com.css.cn.cainiao.mvc.controller;
 
-import com.css.cn.mvc.model.Student;
-import com.css.cn.mvc.view.ConsoleView;
+import com.css.cn.cainiao.mvc.model.Student;
+import com.css.cn.cainiao.mvc.view.ConsoleView;
 
 public class StudentController {
 	

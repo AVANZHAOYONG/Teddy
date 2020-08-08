@@ -3,7 +3,7 @@ package com.css.cn.cainiao.Observer;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.css.cn.Observer.entries.Observer;
+import com.css.cn.cainiao.Observer.entries.Observer;
 
 public class Subject {
 	

@@ -1,7 +1,7 @@
 package com.css.cn.cainiao.adapter.adapter;
 
-import com.css.cn.adapter.sd.SDCard;
-import com.css.cn.adapter.tf.TFCard;
+import com.css.cn.cainiao.adapter.sd.SDCard;
+import com.css.cn.cainiao.adapter.tf.TFCard;
 
 public class TFAdapterSDCard implements SDCard {
 	

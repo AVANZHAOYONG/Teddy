@@ -1,13 +1,13 @@
 package com.css.cn.videos.dp.adapter.demo2;
 
-import org.css.com.dp.adapter.demo2.adapter.MyAdapter;
-import org.css.com.dp.adapter.demo2.entities.LowerProgram;
-import org.css.com.dp.adapter.demo2.entities.Program;
-import org.css.com.dp.adapter.demo2.entities.UpperProgram;
-import org.css.com.dp.adapter.demo2.immutableCode.Filter;
-import org.css.com.dp.adapter.demo2.immutableCode.HandleFilter;
-import org.css.com.dp.adapter.demo2.immutableCode.MyEntities;
-import org.css.com.dp.adapter.demo2.utils.ProgramUtils;
+import com.css.cn.videos.dp.adapter.demo2.adapter.MyAdapter;
+import com.css.cn.videos.dp.adapter.demo2.entities.LowerProgram;
+import com.css.cn.videos.dp.adapter.demo2.entities.Program;
+import com.css.cn.videos.dp.adapter.demo2.entities.UpperProgram;
+import com.css.cn.videos.dp.adapter.demo2.immutableCode.Filter;
+import com.css.cn.videos.dp.adapter.demo2.immutableCode.HandleFilter;
+import com.css.cn.videos.dp.adapter.demo2.immutableCode.MyEntities;
+import com.css.cn.videos.dp.adapter.demo2.utils.ProgramUtils;
 
 public class App {
 	

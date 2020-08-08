@@ -1,8 +1,8 @@
 package com.css.cn.cainiao.Observer;
 
-import com.css.cn.Observer.entries.observer1;
-import com.css.cn.Observer.entries.observer2;
-import com.css.cn.Observer.entries.observer3;
+import com.css.cn.cainiao.Observer.entries.observer1;
+import com.css.cn.cainiao.Observer.entries.observer2;
+import com.css.cn.cainiao.Observer.entries.observer3;
 
 public class App {
 	public static void main(String[] args) {
