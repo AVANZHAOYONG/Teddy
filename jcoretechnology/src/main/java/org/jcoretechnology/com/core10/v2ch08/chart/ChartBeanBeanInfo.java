@@ -1,23 +1,24 @@
 package org.jcoretechnology.com.core10.v2ch08.chart;
 public class ChartBeanBeanInfo extends java.beans.SimpleBeanInfo
 {
+   @Override
    public java.beans.PropertyDescriptor[] getPropertyDescriptors()
    {
       try
       {
          java.beans.PropertyDescriptor titleDescriptor
-            = new java.beans.PropertyDescriptor("title", chart.ChartBean.class);
+            = new java.beans.PropertyDescriptor("title", ChartBean.class);
          java.beans.PropertyDescriptor valuesDescriptor
-            = new java.beans.PropertyDescriptor("values", chart.ChartBean.class);
+            = new java.beans.PropertyDescriptor("values", ChartBean.class);
          valuesDescriptor.setPropertyEditorClass(DoubleArrayEditor.class);
          java.beans.PropertyDescriptor inverseDescriptor
-            = new java.beans.PropertyDescriptor("inverse", chart.ChartBean.class);
+            = new java.beans.PropertyDescriptor("inverse", ChartBean.class);
          inverseDescriptor.setPropertyEditorClass(InverseEditor.class);
          java.beans.PropertyDescriptor titlePositionDescriptor
-            = new java.beans.PropertyDescriptor("titlePosition", chart.ChartBean.class);
+            = new java.beans.PropertyDescriptor("titlePosition", ChartBean.class);
          titlePositionDescriptor.setPropertyEditorClass(TitlePositionEditor.class);
          java.beans.PropertyDescriptor graphColorDescriptor
-            = new java.beans.PropertyDescriptor("graphColor", chart.ChartBean.class);
+            = new java.beans.PropertyDescriptor("graphColor", ChartBean.class);
          return new java.beans.PropertyDescriptor[]
          {
             titleDescriptor,

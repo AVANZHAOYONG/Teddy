@@ -1,12 +1,13 @@
 package org.jcoretechnology.com.core10.v2ch08.bytecodeAnnotations;
 
+import org.apache.bcel.classfile.ClassParser;
+import org.apache.bcel.classfile.JavaClass;
+import org.apache.bcel.generic.ClassGen;
+
 import java.io.ByteArrayInputStream;
 import java.lang.instrument.ClassFileTransformer;
 import java.lang.instrument.Instrumentation;
 import java.security.ProtectionDomain;
-
-import org.apache.bcel.classfile.*;
-import org.apache.bcel.generic.*;
 
 /**
  * @version 1.00 2004-08-17
@@ -18,10 +19,13 @@ public class EntryLoggingAgent
    {
       instr.addTransformer(new ClassFileTransformer()
          {
+            @Override
             public byte[] transform(ClassLoader loader, String className, Class<?> cl,
-                  ProtectionDomain pd, byte[] data)
+                                    ProtectionDomain pd, byte[] data)
             {
-               if (!className.equals(arg)) return null;
+               if (!className.equals(arg)) {
+                  return null;
+               }
                try
                {
                   ClassParser parser = new ClassParser(new ByteArrayInputStream(data), className

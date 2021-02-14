@@ -10,6 +10,25 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>jcoretechnology</artifactId>
+    <dependencies>
+        <dependency>
+            <groupId>javax.mail</groupId>
+            <artifactId>mail</artifactId>
+            <version>1.4.7</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/javax.jnlp/jnlp -->
+        <dependency>
+            <groupId>javax.jnlp</groupId>
+            <artifactId>jnlp</artifactId>
+            <version>1.2</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/org.apache.bcel/bcel -->
+        <dependency>
+            <groupId>org.apache.bcel</groupId>
+            <artifactId>bcel</artifactId>
+            <version>6.0</version>
+        </dependency>
 
+    </dependencies>
 
 </project>

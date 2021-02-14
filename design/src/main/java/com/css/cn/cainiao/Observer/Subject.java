@@ -1,14 +1,14 @@
 package com.css.cn.cainiao.Observer;
 
+import com.css.cn.cainiao.Observer.entries.Observer;
+
 import java.util.ArrayList;
 import java.util.List;
-
-import com.css.cn.cainiao.Observer.entries.Observer;
 
 public class Subject {
 	
 	private String data ;
-	private List<Observer> obsers = new ArrayList<Observer>();
+	private List<Observer> obsers = new ArrayList<>();
 
 	public String getData() {
 		return data;
@@ -30,6 +30,12 @@ public class Subject {
 		obsers.add(obs);
 	}
 
+	public void removeAttach(Observer obs){
+		int i = obsers.indexOf(obs);
+		if(i > 0){
+			obsers.remove(i);
+		}
+	}
 	
 	
 }

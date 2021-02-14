@@ -1,11 +1,13 @@
 package org.jcoretechnology.com.core10.v2ch08.bytecodeAnnotations;
 
-import java.io.IOException;
-import java.lang.reflect.Method;
-
-import org.apache.bcel.*;
-import org.apache.bcel.classfile.*;
+import org.apache.bcel.Repository;
+import org.apache.bcel.classfile.AnnotationEntry;
+import org.apache.bcel.classfile.ElementValuePair;
+import org.apache.bcel.classfile.JavaClass;
+import org.apache.bcel.classfile.Method;
 import org.apache.bcel.generic.*;
+
+import java.io.IOException;
 
 /**
  * Adds "entering" logs to all methods of a class that have the LogEntry annotation.
@@ -25,9 +27,9 @@ public class EntryLogger
    {
       try
       {
-         if (args.length == 0) 
+         if (args.length == 0) {
             System.out.println("USAGE: java bytecodeAnnotations.EntryLogger classname");
-         else
+         } else
          {
             JavaClass jc = Repository.lookupClass(args[0]);
             ClassGen cg = new ClassGen(jc);

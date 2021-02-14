@@ -1,8 +1,9 @@
 package org.jcoretechnology.com.core10.v2ch08.buttons3;
 
-import java.awt.*;
+import org.jcoretechnology.com.core10.v2ch08.runtimeAnnotations.*;
+
 import javax.swing.*;
-import runtimeAnnotations.*;
+import java.awt.*;
 
 /**
  * A frame with a button panel.

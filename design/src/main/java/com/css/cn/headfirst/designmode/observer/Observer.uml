@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.css.cn.cainiao.Observer</OriginalElement>
+  <nodes>
+    <node x="318.78541666666666" y="351.0">com.css.cn.cainiao.Observer.App</node>
+    <node x="268.36875" y="0.0">com.css.cn.cainiao.Observer.entries.Observer</node>
+    <node x="0.0" y="165.5">com.css.cn.cainiao.Observer.entries.observer2</node>
+    <node x="420.0" y="165.5">com.css.cn.cainiao.Observer.entries.observer1</node>
+    <node x="602.0" y="165.5">com.css.cn.cainiao.Observer.entries.observer3</node>
+    <node x="182.0" y="107.0">com.css.cn.cainiao.Observer.Subject</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.css.cn.cainiao.Observer.entries.observer3" target="com.css.cn.cainiao.Observer.entries.Observer">
+      <point x="0.0" y="-28.5" />
+      <point x="683.0" y="77.0" />
+      <point x="414.16875000000005" y="77.0" />
+      <point x="64.80000000000001" y="28.5" />
+    </edge>
+    <edge source="com.css.cn.cainiao.Observer.entries.observer2" target="com.css.cn.cainiao.Observer.entries.Observer">
+      <point x="0.0" y="-28.5" />
+      <point x="81.0" y="77.0" />
+      <point x="284.56875" y="77.0" />
+      <point x="-64.80000000000001" y="28.5" />
+    </edge>
+    <edge source="com.css.cn.cainiao.Observer.entries.observer1" target="com.css.cn.cainiao.Observer.entries.Observer">
+      <point x="0.0" y="-28.5" />
+      <point x="501.0" y="87.0" />
+      <point x="381.76875000000007" y="87.0" />
+      <point x="32.400000000000034" y="28.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="382.0" y="204.0" />
+  <SelectedNodes>
+    <node>com.css.cn.cainiao.Observer.App</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

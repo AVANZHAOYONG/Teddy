@@ -1,13 +1,20 @@
 package org.jcoretechnology.com.core10.v2ch08.sourceAnnotations;
 
-import java.beans.*;
-import java.io.*;
-import java.util.*;
-import javax.annotation.processing.*;
-import javax.lang.model.*;
-import javax.lang.model.element.*;
-import javax.tools.*;
-import javax.tools.Diagnostic.*;
+import javax.annotation.processing.AbstractProcessor;
+import javax.annotation.processing.RoundEnvironment;
+import javax.annotation.processing.SupportedAnnotationTypes;
+import javax.annotation.processing.SupportedSourceVersion;
+import javax.lang.model.SourceVersion;
+import javax.lang.model.element.Element;
+import javax.lang.model.element.TypeElement;
+import javax.tools.Diagnostic.Kind;
+import javax.tools.JavaFileObject;
+import java.beans.Introspector;
+import java.io.IOException;
+import java.io.PrintWriter;
+import java.util.LinkedHashMap;
+import java.util.Map;
+import java.util.Set;
 
 /**
  * This class is the processor that analyzes Property annotations.
@@ -30,7 +37,7 @@ public class BeanInfoAnnotationProcessor extends AbstractProcessor
             String mname = e.getSimpleName().toString();
             String[] prefixes = { "get", "set", "is" };
             boolean found = false;
-            for (int i = 0; !found && i < prefixes.length; i++)
+            for (int i = 0; !found && i < prefixes.length; i++) {
                if (mname.startsWith(prefixes[i]))
                {
                   found = true;
@@ -38,16 +45,21 @@ public class BeanInfoAnnotationProcessor extends AbstractProcessor
                   String name = Introspector.decapitalize(mname.substring(start));
                   props.put(name, e.getAnnotation(Property.class));
                }
+            }
 
-            if (!found) processingEnv.getMessager().printMessage(Kind.ERROR,
-                  "@Property must be applied to getXxx, setXxx, or isXxx method", e);
-            else if (beanClassName == null)
+            if (!found) {
+               processingEnv.getMessager().printMessage(Kind.ERROR,
+                     "@Property must be applied to getXxx, setXxx, or isXxx method", e);
+            } else if (beanClassName == null) {
                beanClassName = ((TypeElement) e.getEnclosingElement()).getQualifiedName()
                      .toString();
+            }
          }
          try
          {
-            if (beanClassName != null) writeBeanInfoFile(beanClassName, props);
+            if (beanClassName != null) {
+               writeBeanInfoFile(beanClassName, props);
+            }
          }
          catch (IOException e)
          {
@@ -67,7 +79,7 @@ public class BeanInfoAnnotationProcessor extends AbstractProcessor
    {
       JavaFileObject sourceFile = processingEnv.getFiler().createSourceFile(
          beanClassName + "BeanInfo");
-      PrintWriter out = new PrintWriter(sourceFile.openWriter(), "UTF-8");
+      PrintWriter out = new PrintWriter(sourceFile.openWriter(), Boolean.parseBoolean("UTF-8"));
       int i = beanClassName.lastIndexOf(".");
       if (i > 0)
       {
@@ -108,8 +120,11 @@ public class BeanInfoAnnotationProcessor extends AbstractProcessor
       boolean first = true;
       for (String p : props.keySet())
       {
-         if (first) first = false;
-         else out.print(",");
+         if (first) {
+            first = false;
+         } else {
+            out.print(",");
+         }
          out.println();
          out.print("            ");
          out.print(p);

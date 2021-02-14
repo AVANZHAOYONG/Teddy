@@ -21,7 +21,7 @@ public class GenericAlgorithms
       String[] ss = ArrayAlg.minmax("Tom", "Dick", "Harry");
       System.out.println(Arrays.toString(ss));
       
-      ss = ArrayAlg.minmax(String[]::new, "Tom", "Dick", "Harry");
+      ss = ArrayAlg.minmax((IntFunction<String[]>) String[]::new, "Tom", "Dick", "Harry");
       System.out.println(Arrays.toString(ss));      
    }
 }
@@ -35,8 +35,12 @@ class ArrayAlg
       T max = a[0];
       for (int i = 1; i < a.length; i++)
       {
-         if (min.compareTo(a[i]) > 0) min = a[i];
-         if (max.compareTo(a[i]) < 0) max = a[i];
+         if (min.compareTo(a[i]) > 0) {
+            min = a[i];
+         }
+         if (max.compareTo(a[i]) < 0) {
+            max = a[i];
+         }
       }
       return mm;
    }
@@ -48,8 +52,12 @@ class ArrayAlg
       T max = a[0];
       for (int i = 1; i < a.length; i++)
       {
-         if (min.compareTo(a[i]) > 0) min = a[i];
-         if (max.compareTo(a[i]) < 0) max = a[i];
+         if (min.compareTo(a[i]) > 0) {
+            min = a[i];
+         }
+         if (max.compareTo(a[i]) < 0) {
+            max = a[i];
+         }
       }
       return (T[]) mm; // compiles with warning
    }      

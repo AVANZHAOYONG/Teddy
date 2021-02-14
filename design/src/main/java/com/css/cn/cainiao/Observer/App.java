@@ -14,8 +14,7 @@ public class App {
 		subject.addAttach(observer1);
 		subject.addAttach(observer2);
 		subject.addAttach(observer3);
-//		subject.addAttach(observer3);
-		
+
 		subject.setData("hello");
 		subject.setData("world");
 	}

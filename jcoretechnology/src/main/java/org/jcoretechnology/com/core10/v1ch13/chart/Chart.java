@@ -1,9 +1,10 @@
 package org.jcoretechnology.com.core10.v1ch13.chart;
 
-import java.awt.*;
-import java.awt.font.*;
-import java.awt.geom.*;
 import javax.swing.*;
+import java.awt.*;
+import java.awt.font.FontRenderContext;
+import java.awt.font.LineMetrics;
+import java.awt.geom.Rectangle2D;
 
 /**
  * @version 1.34 2015-06-12
@@ -11,6 +12,7 @@ import javax.swing.*;
  */
 public class Chart extends JApplet
 {
+   @Override
    public void init()
    {
       EventQueue.invokeLater(() -> {
