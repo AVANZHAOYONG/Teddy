@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.css.cn.cainiao.decorator</OriginalElement>
+  <nodes>
+    <node x="324.0" y="107.0">com.css.cn.cainiao.decorator.entries.Rectangle</node>
+    <node x="180.0" y="107.0">com.css.cn.cainiao.decorator.entries.Circle</node>
+    <node x="302.59761904761905" y="214.0">com.css.cn.cainiao.decorator.decorate.RedShepeDecorator</node>
+    <node x="320.2142857142857" y="0.0">com.css.cn.cainiao.decorator.entries.Shape</node>
+    <node x="0.0" y="119.5">com.css.cn.cainiao.decorator.decorate.ShapeDecorator</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.css.cn.cainiao.decorator.entries.Circle" target="com.css.cn.cainiao.decorator.entries.Shape">
+      <point x="0.0" y="-28.5" />
+      <point x="242.0" y="87.0" />
+      <point x="357.4142857142857" y="87.0" />
+      <point x="-24.80000000000001" y="28.5" />
+    </edge>
+    <edge source="com.css.cn.cainiao.decorator.decorate.RedShepeDecorator" target="com.css.cn.cainiao.decorator.entries.Shape">
+      <point x="70.33333333333331" y="-52.5" />
+      <point x="478.43095238095236" y="189.0" />
+      <point x="469.5" y="189.0" />
+      <point x="469.5" y="77.0" />
+      <point x="431.8142857142857" y="77.0" />
+      <point x="49.599999999999966" y="28.5" />
+    </edge>
+    <edge source="com.css.cn.cainiao.decorator.decorate.RedShepeDecorator" target="com.css.cn.cainiao.decorator.decorate.ShapeDecorator">
+      <point x="-70.33333333333331" y="-52.5" />
+      <point x="337.76428571428573" y="189.0" />
+      <point x="80.0" y="189.0" />
+      <point x="0.0" y="16.0" />
+    </edge>
+    <edge source="com.css.cn.cainiao.decorator.decorate.ShapeDecorator" target="com.css.cn.cainiao.decorator.entries.Shape">
+      <point x="0.0" y="-16.0" />
+      <point x="80.0" y="77.0" />
+      <point x="332.6142857142857" y="77.0" />
+      <point x="-49.60000000000002" y="28.5" />
+    </edge>
+    <edge source="com.css.cn.cainiao.decorator.entries.Rectangle" target="com.css.cn.cainiao.decorator.entries.Shape">
+      <point x="2.8421709430404007E-14" y="-28.5" />
+      <point x="386.0" y="87.0" />
+      <point x="382.2142857142857" y="87.0" />
+      <point x="0.0" y="28.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="257.0" y="159.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
