@@ -4,6 +4,9 @@ package com.css.cn.headfirst.designmode.observer.jdk;
 import java.util.Observable;
 import java.util.Observer;
 
+/**
+ * 观察者
+ */
 public class DisplayTemperature implements Observer {
     private Observable observable;
     private double temperature;

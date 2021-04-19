@@ -1,1 +1,3 @@
 jdk自带的观察者模式
+
+最大问题 Observable是个类

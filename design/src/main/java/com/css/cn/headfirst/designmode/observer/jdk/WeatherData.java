@@ -2,6 +2,9 @@ package com.css.cn.headfirst.designmode.observer.jdk;
 
 import java.util.Observable;
 
+/**
+ * 被观察者
+ */
 public class WeatherData extends Observable {
 
     private double temperature;
